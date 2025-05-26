@@ -1,0 +1,52 @@
+# Log files
+*.log
+main_process_logger.log
+all_fetched_json_fields.log
+json_fetch_cron.log
+cron.log
+
+# JSON data files (too large for Git)
+json_fetch_data_*.json
+raw_json_data_*.json
+archive_*.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursor/
+.cursor-server/
+
+# System files
+.cache/
+.ssh/
+.bash_history
+.lesshst
+.selected_editor
+.profile
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Large data files
+*.json.gz
+*.csv.gz 
